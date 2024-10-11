@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora nuestras recetas deliciosas y fáciles de preparar.">
+    <title>Recetas - Recetas Deliciosas</title>
+    <style>
+        /* Categorías de Recetas */
+        .categorias {
+            background: #ecf0f1;
+            text-align: center;
+            padding: 20px 0;
+            margin: 20px 0;
+        }
+
+        /* Estilos de las Recetas */
+        .recetas-lista {
+            margin: 20px 0;
+        }
+
+        .receta {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .receta img {
+            border-radius: 20px;
+			width: 100%; 
+			max-width: 150px; 
+			
+        }
+
+        
+    </style>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Recetas Deliciosas</h1>
+            <nav>
+                <ul>
+                    <li><a href="1_pagina.html">Inicio</a></li>
+                    <li><a href="">Recetas</a></li>
+                    <li><a href="3_pagina.html">Enviar Receta</a></li>
+                    <li><a href="4_pagina.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Índice de Categorías -->
+        <section class="categorias">
+            <div class="container">
+                <h2>Categorías de Recetas</h2>
+                <ul>
+                    <li><a href="#entrantes">Entrantes</a></li>
+                    <li><a href="#platos-principales">Platos Principales</a></li>
+                    <li><a href="#postres">Postres</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Sección de Entrantes -->
+        <section class="recetas-lista" id="entrantes">
+            <div class="container">
+                <h3>Entrantes</h3>
+                <table>
+                    <tr>
+                        <td>
+                            <article class="receta">
+                                <img src="images/ensalada-mediterranea.jpg" alt="Ensalada Mediterránea" width="150" height="150">
+                                <h4><a href="4_pagina.html#ensalada-mediterranea">Ensalada Mediterránea</a></h4>
+                                <p>Fresca y fácil de preparar.</p>
+                            </article>
+                        </td>
+                        <td>
+                            <article class="receta">
+                                <img src="images/croquetas.jpeg" alt="Croquetaas" width="150" height="150">
+                                <h4><a href="4_pagina.html#croquetaas">Croquetaas</a></h4>
+                                <p>Delicioso dip mexicano.</p>
+                            </article>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- Sección de Platos Principales -->
+        <section class="recetas-lista" id="platos-principales">
+            <div class="container">
+                <h3>Platos Principales</h3>
+                <table>
+                    <tr>
+                        <td>
+                            <article class="receta">
+                                <img src="images/carbonara.jpg" alt="Pasta carbonara" width="150" height="150">
+                                <h4><a href="4_pagina.html#Pasta carbonara">Pasta carbonara</a></h4>
+                                <p>Cremosa y deliciosa.</p>
+                            </article>
+                        </td>
+                        <td>
+                            <article class="receta">
+                                <img src="images/pollo.jpg" alt="Pollo a la Parrilla" width="150" height="150">
+                                <h4><a href="4_pagina.html#pollo-a-la-parrilla">Pollo a la Parrilla</a></h4>
+                                <p>Marinado perfecto para cada ocasión.</p>
+                            </article>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- Sección de Postres -->
+        <section class="recetas-lista" id="postres">
+            <div class="container">
+                <h3>Postres</h3>
+                <table>
+                    <tr>
+                        <td>
+                            <article class="receta">
+                                <img src="images/brownie.jpg" alt="Brownies de Chocolate" width="150" height="150">
+                                <h4><a href="4_pagina.html#brownies-de-chocolate">Brownies de Chocolate</a></h4>
+                                <p>Postre clásico irresistible.</p>
+                            </article>
+                        </td>
+                        <td>
+                            <article class="receta">
+                                <img src="images/tiramusi.jpg" alt="Tiramisú Clásico" width="150" height="150">
+                                <h4><a href="4_pagina.html#tiramisu-clasico">Tiramisú Clásico</a></h4>
+                                <p>El famoso postre italiano.</p>
+                            </article>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Recetas Deliciosas. Todos los derechos reservados.</p>
+            <p><a href="contacto.html">Contáctanos</a> | <a href="#">Política de Privacidad</a></p>
+        </div>
+    </footer>
+</body>
+</html>

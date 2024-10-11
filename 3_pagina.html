@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Envía tu propia receta deliciosa para compartirla con otros.">
+    <title>Enviar Receta - Recetas Deliciosas</title>
+    <style>
+        
+        /* Introducción */
+        .intro {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Formulario */
+        .formulario-envio {
+            background: #fff; /* Fondo blanco para el formulario */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background: #ff6b6b; /* Color rosa para el botón de envío */
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background: #ff4040; /* Color rosa más oscuro al pasar el mouse */
+        }
+
+       
+    </style>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Recetas Deliciosas</h1>
+            <nav>
+                <ul>
+                    <li><a href="1_pagina.html">Inicio</a></li>
+                    <li><a href="2_pagina.html">Recetas</a></li>
+                    <li><a href="">Enviar Receta</a></li>
+                    <li><a href="4_pagina.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h2>Enviar Receta</h2>
+                <p>Comparte tu receta favorita con nosotros. Completa el formulario a continuación.</p>
+            </div>
+        </section>
+
+        <section class="formulario-envio">
+            <div class="container">
+                <form action="#" method="post">
+                    <label for="nombre">Tu Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Tu Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="nombre-receta">Nombre de la Receta:</label>
+                    <input type="text" id="nombre-receta" name="nombre-receta" required>
+
+                    <label for="categoria">Categoría:</label>
+                    <select id="categoria" name="categoria">
+                        <option value="entrantes">Entrantes</option>
+                        <option value="platos-principales">Platos Principales</option>
+                        <option value="postres">Postres</option>
+                    </select>
+
+                    <label for="instrucciones">Instrucciones:</label>
+                    <textarea id="instrucciones" name="instrucciones" rows="6" required></textarea>
+
+                    <input type="submit" value="Enviar Receta">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Recetas Deliciosas. Todos los derechos reservados.</p>
+            <p><a href="contacto.html">Contáctanos</a> | <a href="#">Política de Privacidad</a></p>
+        </div>
+    </footer>
+</body>
+</html>
